@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\C# IA\ShopriteInventory\bin\Release\ShopriteInventory.exe.config
+C:\Users\user\Desktop\C# IA\ShopriteInventory\bin\Release\ShopriteInventory.exe
+C:\Users\user\Desktop\C# IA\ShopriteInventory\bin\Release\ShopriteInventory.pdb
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.CustomButtons.resources
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.LoginPage.resources
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.MainForm.resources
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.Properties.Resources.resources
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.UserForm.resources
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.UserModule.resources
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.csproj.GenerateResource.cache
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.exe
+C:\Users\user\Desktop\C# IA\ShopriteInventory\obj\Release\ShopriteInventory.pdb

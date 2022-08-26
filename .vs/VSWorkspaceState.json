@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ShopriteInventory",
+    "\\ShopriteInventory\\bin",
+    "\\ShopriteInventory\\obj",
+    "\\ShopriteInventory\\Properties"
   ],
-  "SelectedNode": "\\C:\\Users\\user\\Desktop\\C# IA",
+  "SelectedNode": "\\ShopriteInventory\\Properties\\Resources.Designer.cs",
   "PreviewInSolutionExplorer": false
 }

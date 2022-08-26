@@ -28,8 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-           
+            this.SuspendLayout();
+            // 
+            // CustomButtons
+            // 
+            this.Name = "CustomButtons";
+            this.Size = new System.Drawing.Size(619, 448);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
