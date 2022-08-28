@@ -43,7 +43,7 @@ namespace InventoryManagementSystem
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(33, 195);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -67,7 +67,7 @@ namespace InventoryManagementSystem
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.flowLayoutPanel1.Location = new System.Drawing.Point(33, 18);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -77,11 +77,11 @@ namespace InventoryManagementSystem
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(364, 65);
+            this.pictureBox1.Location = new System.Drawing.Point(378, 54);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(184, 131);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 

@@ -36,26 +36,22 @@ namespace InventoryManagementSystem
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panelMain = new System.Windows.Forms.Panel();
             this.btnOrder = new InventoryManagementSystem.CustomerButton();
             this.btnUser = new InventoryManagementSystem.CustomerButton();
             this.btnCategory = new InventoryManagementSystem.CustomerButton();
             this.btnCustomer = new InventoryManagementSystem.CustomerButton();
             this.btnProduct = new InventoryManagementSystem.CustomerButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelMain = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.panelMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCategory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnProduct)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -78,26 +74,27 @@ namespace InventoryManagementSystem
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(992, 94);
+            this.panel1.Size = new System.Drawing.Size(992, 110);
             this.panel1.TabIndex = 0;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label8.Location = new System.Drawing.Point(658, 63);
+            this.label8.Location = new System.Drawing.Point(784, 63);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(58, 17);
+            this.label8.Size = new System.Drawing.Size(87, 23);
             this.label8.TabIndex = 13;
             this.label8.Text = "ORDERS";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label7.Location = new System.Drawing.Point(578, 63);
+            this.label7.Location = new System.Drawing.Point(712, 62);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 17);
+            this.label7.Size = new System.Drawing.Size(66, 23);
             this.label7.TabIndex = 13;
             this.label7.Text = "USERS";
             // 
@@ -105,9 +102,9 @@ namespace InventoryManagementSystem
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label6.Location = new System.Drawing.Point(468, 63);
+            this.label6.Location = new System.Drawing.Point(574, 62);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 17);
+            this.label6.Size = new System.Drawing.Size(132, 23);
             this.label6.TabIndex = 13;
             this.label6.Text = "CATEGORIES";
             // 
@@ -115,9 +112,9 @@ namespace InventoryManagementSystem
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(383, 63);
+            this.label5.Location = new System.Drawing.Point(444, 63);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 17);
+            this.label5.Size = new System.Drawing.Size(124, 23);
             this.label5.TabIndex = 13;
             this.label5.Text = "CUSTOMERS";
             // 
@@ -125,74 +122,18 @@ namespace InventoryManagementSystem
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(301, 63);
+            this.label4.Location = new System.Drawing.Point(343, 63);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 17);
+            this.label4.Size = new System.Drawing.Size(103, 23);
             this.label4.TabIndex = 13;
             this.label4.Text = "PRODUCT";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(67, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 32);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "demy";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Goudy Stout", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(-1, -3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 51);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "M";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(4, 57);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(270, 19);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "INVENTORY MANAGEMENT SYSTEM";
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 600);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(992, 17);
-            this.flowLayoutPanel1.TabIndex = 1;
-            // 
-            // panelMain
-            // 
-            this.panelMain.BackColor = System.Drawing.Color.White;
-            this.panelMain.Controls.Add(this.label9);
-            this.panelMain.Controls.Add(this.pictureBox1);
-            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(0, 94);
-            this.panelMain.Margin = new System.Windows.Forms.Padding(4);
-            this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(992, 506);
-            this.panelMain.TabIndex = 2;
             // 
             // btnOrder
             // 
             this.btnOrder.Image = ((System.Drawing.Image)(resources.GetObject("btnOrder.Image")));
             this.btnOrder.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnOrder.ImageHover")));
             this.btnOrder.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnOrder.ImageNormal")));
-            this.btnOrder.Location = new System.Drawing.Point(668, 13);
+            this.btnOrder.Location = new System.Drawing.Point(802, 13);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(33, 32);
             this.btnOrder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -205,7 +146,7 @@ namespace InventoryManagementSystem
             this.btnUser.Image = ((System.Drawing.Image)(resources.GetObject("btnUser.Image")));
             this.btnUser.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnUser.ImageHover")));
             this.btnUser.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnUser.ImageNormal")));
-            this.btnUser.Location = new System.Drawing.Point(580, 13);
+            this.btnUser.Location = new System.Drawing.Point(722, 13);
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(33, 32);
             this.btnUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -218,7 +159,7 @@ namespace InventoryManagementSystem
             this.btnCategory.Image = ((System.Drawing.Image)(resources.GetObject("btnCategory.Image")));
             this.btnCategory.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnCategory.ImageHover")));
             this.btnCategory.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnCategory.ImageNormal")));
-            this.btnCategory.Location = new System.Drawing.Point(492, 13);
+            this.btnCategory.Location = new System.Drawing.Point(620, 12);
             this.btnCategory.Name = "btnCategory";
             this.btnCategory.Size = new System.Drawing.Size(33, 32);
             this.btnCategory.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -231,7 +172,7 @@ namespace InventoryManagementSystem
             this.btnCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomer.Image")));
             this.btnCustomer.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnCustomer.ImageHover")));
             this.btnCustomer.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnCustomer.ImageNormal")));
-            this.btnCustomer.Location = new System.Drawing.Point(404, 13);
+            this.btnCustomer.Location = new System.Drawing.Point(501, 13);
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.Size = new System.Drawing.Size(33, 32);
             this.btnCustomer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -244,7 +185,7 @@ namespace InventoryManagementSystem
             this.btnProduct.Image = ((System.Drawing.Image)(resources.GetObject("btnProduct.Image")));
             this.btnProduct.ImageHover = ((System.Drawing.Image)(resources.GetObject("btnProduct.ImageHover")));
             this.btnProduct.ImageNormal = ((System.Drawing.Image)(resources.GetObject("btnProduct.ImageNormal")));
-            this.btnProduct.Location = new System.Drawing.Point(316, 13);
+            this.btnProduct.Location = new System.Drawing.Point(370, 13);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(33, 32);
             this.btnProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -252,30 +193,63 @@ namespace InventoryManagementSystem
             this.btnProduct.TabStop = false;
             this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
-            // pictureBox1
+            // label2
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(34, 94);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(883, 267);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label2.Location = new System.Drawing.Point(50, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(184, 47);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "hopRyte";
             // 
-            // label9
+            // label1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(71)))), ((int)(((byte)(160)))));
-            this.label9.Location = new System.Drawing.Point(815, 480);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(174, 21);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "@Copy Right Mdemy";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Goudy Stout", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label1.Location = new System.Drawing.Point(-13, -9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 77);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "S";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(-4, 62);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(340, 23);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "INVENTORY MANAGEMENT SYSTEM";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 600);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(992, 17);
+            this.flowLayoutPanel1.TabIndex = 1;
+            // 
+            // panelMain
+            // 
+            this.panelMain.BackColor = System.Drawing.Color.White;
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 110);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(4);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(992, 490);
+            this.panelMain.TabIndex = 2;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(992, 617);
             this.Controls.Add(this.panelMain);
@@ -289,14 +263,11 @@ namespace InventoryManagementSystem
             this.Text = "MainForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panelMain.ResumeLayout(false);
-            this.panelMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCategory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCustomer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnProduct)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -319,7 +290,5 @@ namespace InventoryManagementSystem
         private CustomerButton btnUser;
         private CustomerButton btnCategory;
         private CustomerButton btnCustomer;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
