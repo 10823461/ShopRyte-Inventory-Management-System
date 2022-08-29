@@ -76,7 +76,7 @@ namespace InventoryManagementSystem
             this.label1.Location = new System.Drawing.Point(5, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 19);
+            this.label1.Size = new System.Drawing.Size(219, 28);
             this.label1.TabIndex = 1;
             this.label1.Text = "Customer Module";
             // 
@@ -126,15 +126,15 @@ namespace InventoryManagementSystem
             // 
             this.txtCPhone.Location = new System.Drawing.Point(133, 115);
             this.txtCPhone.Name = "txtCPhone";
-            this.txtCPhone.Size = new System.Drawing.Size(396, 22);
+            this.txtCPhone.Size = new System.Drawing.Size(396, 30);
             this.txtCPhone.TabIndex = 22;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(65, 118);
+            this.label5.Location = new System.Drawing.Point(28, 118);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 17);
+            this.label5.Size = new System.Drawing.Size(82, 21);
             this.label5.TabIndex = 21;
             this.label5.Text = "Phone : ";
             // 
@@ -142,15 +142,15 @@ namespace InventoryManagementSystem
             // 
             this.txtCName.Location = new System.Drawing.Point(133, 73);
             this.txtCName.Name = "txtCName";
-            this.txtCName.Size = new System.Drawing.Size(396, 22);
+            this.txtCName.Size = new System.Drawing.Size(396, 30);
             this.txtCName.TabIndex = 16;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(66, 76);
+            this.label2.Location = new System.Drawing.Point(38, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 17);
+            this.label2.Size = new System.Drawing.Size(79, 21);
             this.label2.TabIndex = 15;
             this.label2.Text = "Name : ";
             // 
@@ -159,14 +159,14 @@ namespace InventoryManagementSystem
             this.lblCId.AutoSize = true;
             this.lblCId.Location = new System.Drawing.Point(40, 176);
             this.lblCId.Name = "lblCId";
-            this.lblCId.Size = new System.Drawing.Size(78, 17);
+            this.lblCId.Size = new System.Drawing.Size(115, 21);
             this.lblCId.TabIndex = 26;
             this.lblCId.Text = "customer Id";
             this.lblCId.Visible = false;
             // 
             // CustomerModuleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(602, 228);
             this.Controls.Add(this.lblCId);

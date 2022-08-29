@@ -39,27 +39,26 @@ namespace InventoryManagementSystem
             this.btnSave = new System.Windows.Forms.Button();
             this.txtCatName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.pictureBoxClose);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(657, 49);
+            this.panel1.Size = new System.Drawing.Size(602, 49);
             this.panel1.TabIndex = 27;
             // 
             // pictureBoxClose
             // 
             this.pictureBoxClose.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxClose.Image")));
-            this.pictureBoxClose.Location = new System.Drawing.Point(625, 0);
+            this.pictureBoxClose.Location = new System.Drawing.Point(575, -1);
             this.pictureBoxClose.Name = "pictureBoxClose";
             this.pictureBoxClose.Size = new System.Drawing.Size(29, 27);
             this.pictureBoxClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -75,7 +74,7 @@ namespace InventoryManagementSystem
             this.label1.Location = new System.Drawing.Point(5, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(217, 28);
+            this.label1.Size = new System.Drawing.Size(144, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Category Module";
             // 
@@ -84,9 +83,9 @@ namespace InventoryManagementSystem
             this.lblCatId.AutoSize = true;
             this.lblCatId.Location = new System.Drawing.Point(40, 141);
             this.lblCatId.Name = "lblCatId";
-            this.lblCatId.Size = new System.Drawing.Size(123, 21);
+            this.lblCatId.Size = new System.Drawing.Size(77, 17);
             this.lblCatId.TabIndex = 35;
-            this.lblCatId.Text = "Category Id:";
+            this.lblCatId.Text = "category Id";
             this.lblCatId.Visible = false;
             // 
             // btnClear
@@ -95,7 +94,7 @@ namespace InventoryManagementSystem
             this.btnClear.FlatAppearance.BorderSize = 0;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(455, 227);
+            this.btnClear.Location = new System.Drawing.Point(431, 131);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(94, 37);
             this.btnClear.TabIndex = 34;
@@ -109,7 +108,7 @@ namespace InventoryManagementSystem
             this.btnUpdate.FlatAppearance.BorderSize = 0;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(345, 227);
+            this.btnUpdate.Location = new System.Drawing.Point(331, 131);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(94, 37);
             this.btnUpdate.TabIndex = 33;
@@ -123,7 +122,7 @@ namespace InventoryManagementSystem
             this.btnSave.FlatAppearance.BorderSize = 0;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(231, 227);
+            this.btnSave.Location = new System.Drawing.Point(231, 131);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(94, 37);
             this.btnSave.TabIndex = 32;
@@ -133,9 +132,9 @@ namespace InventoryManagementSystem
             // 
             // txtCatName
             // 
-            this.txtCatName.Location = new System.Drawing.Point(194, 85);
+            this.txtCatName.Location = new System.Drawing.Point(133, 86);
             this.txtCatName.Name = "txtCatName";
-            this.txtCatName.Size = new System.Drawing.Size(396, 30);
+            this.txtCatName.Size = new System.Drawing.Size(396, 22);
             this.txtCatName.TabIndex = 29;
             // 
             // label2
@@ -143,23 +142,15 @@ namespace InventoryManagementSystem
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(18, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(170, 21);
+            this.label2.Size = new System.Drawing.Size(112, 17);
             this.label2.TabIndex = 28;
             this.label2.Text = "Category Name : ";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(194, 138);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(396, 30);
-            this.textBox1.TabIndex = 36;
-            // 
             // CategoryModuleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(657, 296);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(602, 182);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblCatId);
             this.Controls.Add(this.btnClear);
@@ -192,6 +183,5 @@ namespace InventoryManagementSystem
         public System.Windows.Forms.Button btnSave;
         public System.Windows.Forms.TextBox txtCatName;
         private System.Windows.Forms.Label label2;
-        public System.Windows.Forms.TextBox textBox1;
     }
 }

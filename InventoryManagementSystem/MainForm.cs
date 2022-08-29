@@ -58,10 +58,5 @@ namespace InventoryManagementSystem
         {
             openChildForm(new OrderForm());
         }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
