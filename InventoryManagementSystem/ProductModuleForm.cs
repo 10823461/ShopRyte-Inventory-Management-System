@@ -13,7 +13,7 @@ namespace InventoryManagementSystem
 {
     public partial class ProductModuleForm : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\acer\Documents\dbIMS.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\user\\Desktop\\ShopRyte-Inventory-Management-System\\Tutorial Database\\dbIMS.mdf;Initial Catalog=Inventory Data;Integrated Security=True");
         SqlCommand cm = new SqlCommand();
         SqlDataReader dr;
         public ProductModuleForm()

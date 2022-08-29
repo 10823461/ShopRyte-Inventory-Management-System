@@ -13,7 +13,7 @@ namespace InventoryManagementSystem
 {
     public partial class LoginForm : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\acer\Documents\dbIMS.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\user\\Desktop\\ShopRyte-Inventory-Management-System\\Tutorial Database\\dbIMS.mdf;Initial Catalog=Inventory Data;Integrated Security=True");
         SqlCommand cm = new SqlCommand();
         SqlDataReader dr;
         public LoginForm()
@@ -53,6 +53,7 @@ namespace InventoryManagementSystem
                 con.Open();
                 dr = cm.ExecuteReader();
                 dr.Read();
+                
                 if (dr.HasRows)
                 {
                     MessageBox.Show("Welcome " + dr["fullname"].ToString() + " | ", "ACCESS GRANTED", MessageBoxButtons.OK, MessageBoxIcon.Information);
