@@ -1,4 +1,10 @@
 # ShopRyte-Inventory-Management-System
-<img width="460" alt="welcome" src="https://user-images.githubusercontent.com/84512122/187232977-1596a06d-6990-4a36-962b-96545485a60d.png">
-<img width="559" alt="image" src="https://user-images.githubusercontent.com/84512122/187233449-d7cc591b-17f1-4375-84bc-adeb2ec42894.png">
-<img width="741" alt="image" src="https://user-images.githubusercontent.com/84512122/187252582-2347d669-b181-4092-aac0-ce5f7f0e58c5.png">
+Preview of some sample pages
+Welcome Page
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/84512122/188520682-771b8b64-bb0a-46e4-98d7-2c781683f0ba.png">
+Login Page
+<img width="569" alt="image" src="https://user-images.githubusercontent.com/84512122/188520705-3054e89d-0372-4c36-a507-3df05f1e8574.png">
+Home Page
+<img width="688" alt="image" src="https://user-images.githubusercontent.com/84512122/188520754-0c512078-96c8-4c0b-b963-d223e350eab8.png">
+Product Page
+<img width="692" alt="image" src="https://user-images.githubusercontent.com/84512122/188520795-e7470afe-d736-4cd4-9efc-23a9d5efc577.png">
